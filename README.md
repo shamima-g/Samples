@@ -14,7 +14,7 @@ This template synchronizes products data between Salesforce and a database syste
 The movement of large quantities of data is necessary during daily data sync.
 This template upload account records that are stored in CSV format to Salesforce.  It uses the Bulk Api from salesforce.  It also verifies the job status and writes the result to a log file. 
  
-# The template processes data in the following order;
+### The template processes data in the following order;
 1.	Create a new job that specifies the object and action.
 2.	Send data to the server.
 3.	Once all data has been submitted, close the job. Once closed, no more batches can be sent as part of the job.
